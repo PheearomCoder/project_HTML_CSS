@@ -1,0 +1,36 @@
+.slide{
+    width:95%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide .block-title{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    color: var(--light-400);
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.slide .title{
+    width: 50%;
+    height: 100%;
+    padding: 75px 50px;
+}
+.slide h1{
+    font-size: 140px;
+}
+.slide .desc{
+    width: 50%;
+    height: 100%;
+    padding: 180px 100px;
+    color: var(--light-400);
+}
