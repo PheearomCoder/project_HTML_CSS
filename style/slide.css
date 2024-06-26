@@ -1,8 +1,9 @@
 .slide{
-    width:95%;
+    width:97%;
     height: 500px;
     margin: auto;
     position: relative;
+    margin-top: 2rem;
 }
 .slide img{
     width: 100%;
@@ -31,6 +32,9 @@
 .slide .desc{
     width: 50%;
     height: 100%;
-    padding: 180px 100px;
+    padding: 180px 70px;
     color: var(--light-400);
+}
+.desc h3{
+    margin-top: 30px;
 }

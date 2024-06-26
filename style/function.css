@@ -17,6 +17,8 @@
 }
 body{
     width: 100vw;
+    position: relative;
+    
 }
 ul{
     list-style: none;
