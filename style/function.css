@@ -10,15 +10,16 @@
     --dark-100:#151414;
     --dark-red:#e62121;
     --dark-blue:rgb(8, 8, 114);
+    --dark-yellow: rgb(224, 195, 62);
 
 }
 ::selection{
-    background-color: rgb(207, 149, 74);
+    background-color: rgb(207, 159, 96);
 }
 body{
     width: 100vw;
-    position: relative;
-    
+    height: 100vh;
+   
 }
 ul{
     list-style: none;

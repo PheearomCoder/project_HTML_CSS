@@ -14,9 +14,9 @@ header .box-head{
     
 }
 header .box-head p{
-    font-size: 13px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-optical-sizing: auto;
 }
@@ -30,7 +30,7 @@ header .box-nav{
 header .box-nav .box-menu{
     width: 33.33%;
     height: 100%;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 header .box-nav .box-menu ul{
     height: 100%;
@@ -62,6 +62,7 @@ header .box-nav .box-menu ul li .drop-down{
     background-color: var(--light-500);
     box-shadow: 0.5px 0.5px 1px var(--dark-blue);
     display: none;
+    
 }
 header .box-nav .box-menu ul li .drop-down a:hover{
     color: var(--dark-blue);
@@ -104,7 +105,7 @@ header .box-nav .contact ul li{
 }
 header .box-nav .contact ul li a{
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--dark-100);
     position: relative;
    
