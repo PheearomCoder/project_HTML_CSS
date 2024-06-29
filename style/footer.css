@@ -1,1 +1,118 @@
 @import url(function.css);
+.footer {
+  width: 100%;
+  /* background-color: var(--dark-100); */
+  /* height: 500px; */
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.footer .top {
+  width: 81%;
+  height: 30%;
+  margin: auto;
+  /* color: var(--light-400); */
+  /* background-color: var(--dark-yellow); */
+}
+.footer .detail {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  /* background-color: var(--dark-blue); */
+  display: flex;
+}
+.detail .shipping {
+  width: 25%;
+  font-size: 16px;
+  height: 100%;
+  line-height: 30px;
+  padding: 10px 0px;
+  /* background-color: rgb(255, 255, 254); */
+}
+.shipping .fa-parachute-box {
+  width: 25%;
+  /* height: 100%; */
+}
+.shipping i {
+  font-size: 30px;
+  color: pink;
+}
+.detail .contact {
+  width: 50%;
+  height: 100%;
+  line-height: 50px;
+  padding: 0px 5px;
+  border-left: solid 2px rgba(143, 128, 128, 0.749);
+}
+.contact .send-email #email {
+  width: 78%;
+  padding: 10px 0px;
+  outline: none;
+
+}
+.contact .send-email button {
+  width: 130px;
+  padding: 10px 0px;
+  cursor: pointer;
+  color: black;
+}
+.send-email button:hover {
+  background-color: black;
+  color: white;
+}
+::placeholder {
+  font-size: 20px;
+}
+
+.footer .about {
+  width: 65%;
+  height: 50%;
+  /* background-color: rgb(213, 16, 33); */
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 4px;
+  color: white;
+}
+.footer .about .detail {
+  width: 310px;
+  height: 70%;
+  background-color: rgba(105, 107, 102, 0.836);
+  padding: 40px 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.about .detail img {
+  width: 65px;
+}
+.about .detail h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.about .detail p,
+a {
+  margin-top: 10px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.detail .contact_me > i {
+  margin-right: 10px;
+  color: white;
+  font-size: 19px;
+  line-height: 60px;
+}
+.footer .under{
+  width: 81%;
+  height: 100px;
+  /* background-color: orange; */
+  margin: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}

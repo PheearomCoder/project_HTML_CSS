@@ -46,6 +46,10 @@ main .card {
   right: 10px;
   font-size: 20px;
   color: #5e5a5a;
+  display: none;
+}
+.card .img-detail:hover .fa-cart-shopping{
+    display: block;
 }
 .img-detail img {
   width: 100%;
