@@ -1,16 +1,15 @@
 @import url(function.css);
 .footer {
   width: 100%;
-  /* background-color: var(--dark-100); */
-  /* height: 500px; */
+  background-color: var(--light-500);
+  height: 500px;
   margin-top: 30px;
   margin-bottom: 100px;
 }
 .footer .top {
-  width: 81%;
+  width: 82%;
   height: 30%;
   margin: auto;
-  /* color: var(--light-400); */
   /* background-color: var(--dark-yellow); */
 }
 .footer .detail {
@@ -26,6 +25,7 @@
   height: 100%;
   line-height: 30px;
   padding: 10px 0px;
+  color: rgb(0, 0, 0);
   /* background-color: rgb(255, 255, 254); */
 }
 .shipping .fa-parachute-box {
@@ -40,17 +40,17 @@
   width: 50%;
   height: 100%;
   line-height: 50px;
-  padding: 0px 5px;
+  padding: 0px 0px 0px 50px;
   border-left: solid 2px rgba(143, 128, 128, 0.749);
+  color: rgb(0, 0, 0);
 }
 .contact .send-email #email {
-  width: 78%;
+  width: 75%;
   padding: 10px 0px;
   outline: none;
-
 }
 .contact .send-email button {
-  width: 130px;
+  width: 134.6px;
   padding: 10px 0px;
   cursor: pointer;
   color: black;
@@ -64,9 +64,9 @@
 }
 
 .footer .about {
-  width: 65%;
-  height: 50%;
-  /* background-color: rgb(213, 16, 33); */
+  width: 100%;
+  height: 65%;
+  background-color: rgb(48, 50, 67);
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -74,16 +74,19 @@
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 4px;
   color: white;
+  margin-top: 20px;
+  margin-bottom: 2px;
 }
 .footer .about .detail {
-  width: 310px;
-  height: 70%;
-  background-color: rgba(105, 107, 102, 0.836);
-  padding: 40px 15px;
-
+  width: 335px;
+  height: 100%;
+  /* background-color: rgba(105, 107, 102, 0.836); */
+  padding: 40px 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
 }
 .about .detail img {
@@ -91,7 +94,7 @@
 }
 .about .detail h2 {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .about .detail p,
 a {
@@ -106,13 +109,14 @@ a {
   font-size: 19px;
   line-height: 60px;
 }
-.footer .under{
-  width: 81%;
+.footer .under {
+  width: 100%;
   height: 100px;
-  /* background-color: orange; */
+  background-color: rgb(48, 50, 67);
   margin: auto;
   display: flex;
   justify-content: start;
   align-items: center;
-  
+  color: white;
+  padding: 20px 119px;
 }
