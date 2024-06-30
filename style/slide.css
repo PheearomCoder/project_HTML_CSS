@@ -42,7 +42,7 @@
 }
 .desc h3 {
   margin-top: 30px;
-  font-size: 27px;
+  font-size: 28px;
 }
 .slide .index{
   width: 100%;
@@ -50,5 +50,5 @@
   position: absolute;
   top: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.329);
+  background-color: rgba(40, 36, 36, 0.712);
 }

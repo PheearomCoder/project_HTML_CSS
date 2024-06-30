@@ -86,6 +86,7 @@ header .box-nav .logo {
 }
 header .box-nav .logo img {
   width: 100px;
+  border-radius: 50%;
 }
 
 header .box-nav .contact {

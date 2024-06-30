@@ -45,15 +45,24 @@
   color: rgb(0, 0, 0);
 }
 .contact .send-email #email {
-  width: 75%;
+  width: 80%;
   padding: 10px 0px;
   outline: none;
+  display: flex;
+  gap: 0px 10px;
 }
 .contact .send-email button {
-  width: 134.6px;
+  width: 20%;
   padding: 10px 0px;
+  margin-left: 10px;
   cursor: pointer;
   color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.send-email {
+  display: flex;
 }
 .send-email button:hover {
   background-color: black;
@@ -61,6 +70,7 @@
 }
 ::placeholder {
   font-size: 20px;
+  padding: 0px 30px;
 }
 
 .footer .about {

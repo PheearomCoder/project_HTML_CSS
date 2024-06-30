@@ -30,9 +30,10 @@ main .card {
   padding: 10px 5px;
   position: relative;
   position: absolute;
-  background-color: var(--dark-yellow);
-  top: 0px;
-  right: 50px;
+  background-color: rgba(218, 158, 27, 0.692);
+  border-radius: 5px 5px;
+  top: 5px;
+  right: 43px;
   display: none;
 }
 .add-to-card .clippy {
