@@ -22,6 +22,9 @@ main .card {
   position: relative;
   cursor: pointer;
 }
+.card .fa-cart-shopping:hover + .add-to-card{
+  display: block;
+}
 .card .img-detail .add-to-card {
   width: 100px;
   padding: 10px 5px;
@@ -30,6 +33,7 @@ main .card {
   background-color: var(--dark-yellow);
   top: 0px;
   right: 50px;
+  display: none;
 }
 .add-to-card .clippy {
   width: 15px;
